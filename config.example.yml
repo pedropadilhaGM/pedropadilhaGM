@@ -10,7 +10,7 @@
 #   python -m generator.main --demo
 
 # Your GitHub username (required)
-username: galaxy-dev
+username: pedropadilhaGM
 
 # Profile information displayed in the galaxy header
 profile:
@@ -20,11 +20,13 @@ profile:
   location: "Natal - RN, Brazil"
   bio: |
     Profissional focado em otimizar rotinas empresariais através de tecnologia. Atua com desenvolvimento e customização no TOTVS Protheus (ADVPL, consultas SQL, regras de negócio), criando soluções inteligentes que conectam ERP, APIs e plataformas externas.
+  philosophy: ''
 
 # Social links displayed at the bottom of the profile
 social:
   email: "pedropadilha@moradadapaz.com.br"
-  linkedin: "pedropadilha"
+  linkedin: "nyxorion"
+  website: ""
 
 # Galaxy arms represent your core focus areas
 # Each arm spirals out from the center with its own color and tech items
@@ -52,6 +54,13 @@ galaxy_arms:
 #   repo: "owner/repo-name"   — GitHub repository path
 #   arm: 0-2                  — Which galaxy arm to associate with (index)
 #   description: "..."        — Short description shown on the card
+projects:
+  - repo: ""
+    arm: 0
+    description: ""
+  - repo: ""
+    arm: 1
+    description: ""
 
 # Theme color overrides (optional — defaults to deep space palette)
 # All values must be valid hex color codes (#RRGGBB)
@@ -80,8 +89,8 @@ languages:
   exclude:                     # Languages to hide from the telemetry chart
     - "HTML"
     - "CSS"
-    - "ADVPL"
+    - "JavaScript"
+    - "Advpl"
     - "SQL"
-    - "JAVASCRIPT"
-    - "NODE.JS"
+    - "Node.js"
   max_display: 8               # Maximum number of languages to show
